@@ -107,6 +107,6 @@ def generate_html_report():
 if __name__ == "__main__":  
     try:  
         html_report = generate_html_report()  
-        open("report.html", "w", encoding="utf-8").write(html_report)  
+        open("index.html", "w", encoding="utf-8").write(html_report)  
     except Exception as e:  
         print(f"生成报告时发生错误: {e}")
